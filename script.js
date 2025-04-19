@@ -55,3 +55,14 @@ function getComputerChoice() {
   function capitalize(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
   }
+
+  document.getElementById('reset').addEventListener('click', () => {
+    userScore = 0;
+    computerScore = 0;
+    userScoreDisplay.textContent = 0;
+    computerScoreDisplay.textContent = 0;
+    userChoiceDisplay.textContent = 'You chose: -';
+    computerChoiceDisplay.textContent = 'Computer chose: -';
+    winnerDisplay.textContent = 'Who wins? 🤔';
+  });
+  
