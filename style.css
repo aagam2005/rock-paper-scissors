@@ -49,3 +49,16 @@ h1{
     font-size: 1.3em;
     font-weight: bold;
 }
+
+body.dark {
+    background: linear-gradient(to right, #1e272e, #485563);
+    color: #fff;
+  }
+  body.dark .choice {
+    background-color: #fff;
+    color: #1e272e;
+  }
+  body.dark .choice:hover {
+    background-color: #ffdd57;
+  }
+  
